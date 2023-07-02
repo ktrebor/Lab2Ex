@@ -10,7 +10,7 @@ namespace Lab2Ex2
             Console.Write("Introdu numărul: ");
             int numar = int.Parse(Console.ReadLine());
 
-            if (IsPalindrome(numar))
+            if (EstePalindrom(numar))
             {
                 Console.WriteLine("Numărul ESTE un palindrom.");
             }
@@ -20,7 +20,7 @@ namespace Lab2Ex2
             }
         }
 
-        static bool IsPalindrome(int numar)
+        static bool EstePalindrom(int numar)
         {
             int numarIntial = numar;
             int numarInvers = 0;

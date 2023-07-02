@@ -7,14 +7,14 @@ namespace Lab2Ex
         /*Scrieti o functie care citeşte de la tastatură un şir de n numere naturale şi determină media aritmetică a celor pare, n fiind citit de la tastatra*/
         static void Main(string[] args)
         {
-            Console.Write("Introduce numărul de elemente din șir: ");
+            Console.Write("Introdu numărul de elemente din șir: ");
             int n = int.Parse(Console.ReadLine());
 
             int[] numere = new int[n];
 
             for (int i = 0; i < n; i++)
             {
-                Console.Write($"Introduceți numărul {i + 1}: ");
+                Console.Write($"Introdu numărul {i + 1}: ");
                 numere[i] = int.Parse(Console.ReadLine());
             }
 
