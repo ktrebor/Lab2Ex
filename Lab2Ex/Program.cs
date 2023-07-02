@@ -26,23 +26,23 @@ namespace Lab2Ex
         static double CalculeazaMediaPare(int[] numere)
         {
             double sumaPare = 0;
-            int numarPare = 0;
+            int elementePare = 0;
 
             for (int i = 0; i < numere.Length; i++)
             {
                 if (numere[i] % 2 == 0)
                 {
                     sumaPare += numere[i];
-                    numarPare++;
+                    elementePare++;
                 }
             }
 
-            if (numarPare == 0)
+            if (elementePare == 0)
             {
                 return 0;
             }
 
-            double mediaAritmeticaPare = sumaPare / numarPare;
+            double mediaAritmeticaPare = sumaPare / elementePare;
             return mediaAritmeticaPare;
         }
     }
